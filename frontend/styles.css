@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3{
+    color: #333;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+}
+
+input, select, button{
+    margin-bottom:10px;
+}
+
+pre{
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CPU SCHEDULER</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>CPU SCHEDULER</h1>
+        <form id="schedulerForm">
+            <label for="algorithm">Scheduling Algorithm:</label>
+            <select id="algorithm" name="algorithm">
+                <option value="FCFS">FCFS</option>
+                <option value="SJF">SJF</option>
+                <option value="RR">Round Robin</option>
+                <option value="Priority">Priority</option>
+            </select><br><br>
+
+            <label for="timeQuantum">Time Quantum (for RR):</label>
+            <input type="number" id="timeQuantum" name="timeQuantum" min="1"><br><br>
+
+            <div id="processes">
+                <div class="process">
+                    <label for="processId1">ID:</label>
+                    <input type="text" id="processId1" name="processId1" class="id" required><br>
+                    <label for="burstTime1">Burst Time:</label>
+                    <input type="number" id="burstTime1" name="burstTime1" class="burstTime" min="1" required><br>
+                    <label for="arrivalTime1">Arrival Time:</label>
+                    <input type="number" id="arrivalTime1" name="arrivalTime1" class="arrivalTime" min="0" required><br>
+                    <label for="priority1">Priority:</label>
+                    <input type="number" id="priority1" name="priority1" class="priority" min="1" required><br>
+                    <label for="remainingTime1">Remaining Time:</label>
+                    <input type="number" id="remainingTime1" name="remainingTime1" class="remainingTime" min="0"><br>
+                </div>
+            </div>
+            <button type="button" id="addProcessButton">Add Process</button><br><br>
+            <button type="submit">Schedule</button>
+        </form>
+
+        <div id="results"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
