@@ -34,7 +34,7 @@ Open your browser and go to http://localhost:8000
   geek for geeks article on cpu scheduling in operating system
    https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/
 
-  cpprestsdk tutorial from github
+  cpprestsdk tutorial, github
   https://github.com/microsoft/cpprestsdk/wiki/Getting-Started-Tutorial
  
 
