@@ -18,8 +18,7 @@ Open your browser and go to http://localhost:8000
   
 
 > The internal working of your project:
-   The CPU scheduler project aims to optimize CPU resource allocation using scheduling algorithms like FCFS, SJF, RR, and Priority. It implements these algorithms in C++ for efficiency and utilizes Node.js to 
-   interface with a frontend, where users can input process details and observe real-time scheduling outcomes. The project aims to minimize process turnaround time and waiting time while maximizing system 
+   The CPU scheduler project aims to optimize CPU resource allocation using scheduling algorithms like FCFS, SJF, RR, and Priority. It implements these algorithms in C++ for efficiency and utilizes cpprestsdk to build api and so, interface with a frontend, where users can input process details and observe real-time scheduling outcomes. The project aims to minimize process turnaround time and waiting time while maximizing system 
    throughput, offering insights into the impact of different scheduling strategies on system performance.
 
 > Your learning takeaways from the project:
@@ -35,6 +34,8 @@ Open your browser and go to http://localhost:8000
   geek for geeks article on cpu scheduling in operating system
    https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/
 
+  cpprestsdk tutorial from github
+  https://github.com/microsoft/cpprestsdk/wiki/Getting-Started-Tutorial
  
 
 
