@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.10)
+project(CPUScheduler)
+
+set(CMAKE_CXX_STANDARD 17)
+
+# Add this line to use vcpkg toolchain
+set(CMAKE_TOOLCHAIN_FILE "${CMAKE_SOURCE_DIR}/vcpkg/scripts/buildsystems/vcpkg.cmake")
+
+find_package(cpprestsdk REQUIRED)
+
+add_executable(CPUScheduler server.cpp)
+target_link_libraries(CPUScheduler PRIVATE cpprestsdk::cpprest)
