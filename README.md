@@ -9,8 +9,13 @@
    (scheduler.exe) 
 
 > How to run the project-
-   compile the c++ file by giving the command "g++ -o scheduler main.cpp" to the terminal and then either command "./scheduler" to execute and successfully run it in the terminal or run the node server using 
-   "node server.js" command in the directory of CPU SCHEDULER to run the server at the port mentioned in the server.js file to interact with the scheduler.
+   compile the c++ file by giving the command "g++ -o scheduler main.cpp" to the terminal and then either command "./scheduler" to execute and successfully run it in the terminal or for running the server at the port,
+cmake ..
+cmake --build .
+./CPUScheduler
+python -m http.server
+Open your browser and go to http://localhost:8000
+  
 
 > The internal working of your project:
    The CPU scheduler project aims to optimize CPU resource allocation using scheduling algorithms like FCFS, SJF, RR, and Priority. It implements these algorithms in C++ for efficiency and utilizes Node.js to 
